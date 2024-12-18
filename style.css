@@ -1,0 +1,23 @@
+/* GENERAL STYLES */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+/* END GENERAL STYLES */
+
+/* HEADER */
+.header {
+    padding: 50px 0;
+    background: yellowgreen;
+}
+
+.header :where(h1, h2) {
+    text-align: center;
+    color: white;
+    /* greenyellow; */
+}
+/* END HEADER */
