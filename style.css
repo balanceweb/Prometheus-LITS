@@ -7,6 +7,14 @@ body {
     width: 960px;
     margin: 0 auto;
 }
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+a {text-decoration: none;}
 /* END GENERAL STYLES */
 
 /* HEADER */
@@ -21,3 +29,25 @@ body {
     /* greenyellow; */
 }
 /* END HEADER */
+
+/* NAVIGATION */
+.page-navigation {
+    background-color: #222;
+    border-color: #101010;
+    min-height: 64px;
+}
+.page-navigation li {
+    float: left;
+    width: 100px;
+}
+.page-navigation a {
+    display: block;
+    color: #9d9d9d;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+.page-navigation a:hover {
+    color: yellowgreen;
+}
+/* END NAVIGATION */
