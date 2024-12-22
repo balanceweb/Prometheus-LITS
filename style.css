@@ -49,5 +49,6 @@ a {text-decoration: none;}
 }
 .page-navigation a:hover {
     color: yellowgreen;
+    background-color: black;
 }
 /* END NAVIGATION */
