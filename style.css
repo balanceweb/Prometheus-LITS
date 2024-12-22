@@ -40,14 +40,14 @@ a {text-decoration: none;}
     float: left;
     width: 100px;
 }
-.page-navigation a {
+.page-navigation li a {
     display: block;
     color: #9d9d9d;
     line-height: 4em;
     font-weight: bold;
     text-align: center;
 }
-.page-navigation a:hover {
+.page-navigation li a:hover {
     color: yellowgreen;
     background-color: black;
 }
