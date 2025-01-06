@@ -1,8 +1,14 @@
 /* GENERAL STYLES */
+:root {
+    --color-brand-yellow: #FFCE1F;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+    color: #555;
 }
+/* h1, h2, h3, h4 {color: #555;} */
 .container {
     width: 960px;
     margin: 0 auto;
@@ -17,20 +23,29 @@ li {
 a {text-decoration: none;}
 /* END GENERAL STYLES */
 
-/* HEADER */
-.header {
+/* HER */
+.hero-section {
     padding: 50px 0;
-    background: yellowgreen;
+    background: var(--color-brand-yellow);
 }
 
-.header :where(h1, h2) {
+.hero-section :where(h1, h2) {
     text-align: center;
-    color: white;
+    /* color: white; */
     /* greenyellow; */
 }
 /* END HEADER */
 
 /* NAVIGATION */
+.logo {
+    display: inline-block;
+    color: #fff;
+    line-height: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+
+}
 .page-navigation {
     background-color: #222;
     border-color: #101010;
