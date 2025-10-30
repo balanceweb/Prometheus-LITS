@@ -1,4 +1,25 @@
 
+
+let person = {
+  name: 'ComeBack',
+  age: 40,
+}
+for (let a in person) {
+  console.log(a, person[a]);
+}
+
+let arr = ['Banana', 'Orange', 'Apple', 'Pear'];
+
+for (a = 0; a < arr.length; a++) {
+  console.log(arr[a]);
+}
+
+let i = 0;
+while (i < 3) {
+  console.log(i);
+  i++;
+}
+
 let age = 40;
 let prefix;
 
