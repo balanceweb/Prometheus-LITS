@@ -1,14 +1,32 @@
 
+// функції 6:30
+
+let count = function (count1 = 1, count2 = 9, count3 = 15) {
+  let resultCount = count1 + count2 + count3;
+  console.log("resultCount = ", resultCount);
+};
+
+count();
+
+
+// функції 5:12
+
+function count(count1 = 1, count2 = 9, count3 = 15) {
+  let resultCount = count1 + count2 + count3;
+  console.log("resultCount = ", resultCount);
+}
+
+count();
 
 let person = {
-  name: 'ComeBack',
+  name: "ComeBack",
   age: 40,
-}
+};
 for (let a in person) {
   console.log(a, person[a]);
 }
 
-let arr = ['Banana', 'Orange', 'Apple', 'Pear'];
+let arr = ["Banana", "Orange", "Apple", "Pear"];
 
 for (a = 0; a < arr.length; a++) {
   console.log(arr[a]);
@@ -23,36 +41,35 @@ while (i < 3) {
 let age = 40;
 let prefix;
 
-if (age === 1) { prefix = 'year' }
-else { prefix = 'years' }
+if (age === 1) {
+  prefix = "year";
+} else {
+  prefix = "years";
+}
 
 console.log(`You are ${age} ${prefix} old`);
 
-let resultAge = age === 1 ? 'year' : 'years';
-console.log(age + ' ' + resultAge);
-
+let resultAge = age === 1 ? "year" : "years";
+console.log(age + " " + resultAge);
 
 let timeOfOder = 20;
-let smsClosed = 'Sorry the office is closed.';
+let smsClosed = "Sorry the office is closed.";
 
 if (timeOfOder < 9 || timeOfOder > 18) {
   console.log(smsClosed);
 }
 
-
-
-let skills = ['web', 'bots', 'seo'];
+let skills = ["web", "bots", "seo"];
 
 let levelUp = skills.push("ppc", "txt");
 
 console.log(levelUp);
 console.log(skills);
 
-console.log(skills.join(' + '));
+console.log(skills.join(" + "));
 console.log(skills.slice(0, 2));
 console.log(skills.splice(4, 1, "tgt"));
 console.log(skills.reverse());
-
 
 let balanceString = "Liberty";
 
@@ -66,17 +83,16 @@ let random;
 
 console.log(`random is ${random}`);
 
-let liberty_1 = Symbol('id');
+let liberty_1 = Symbol("id");
 
 console.log(liberty_1);
 
 let balanceObject = {
   profession: {
-    first: 'Front-end',
-    second: 'Bot developer'
+    first: "Front-end",
+    second: "Bot developer",
   },
-  credo: 'Be brave'
-
-}
+  credo: "Be brave",
+};
 
 console.log(balanceObject);
