@@ -1,3 +1,13 @@
+// функції 9:09
+
+function double(valueble) {
+  return 2 * double;
+}
+function sum(a, b) {
+  let c = a + b; // локальні змінні зазвичай потрібні, щоб передавати деякі дані в наступну функцію
+  return double(c) + a;
+}
+console.log(sum(3, 5));
 
 // функції 6:30
 
@@ -7,7 +17,6 @@ let count = function (count1 = 1, count2 = 9, count3 = 15) {
 };
 
 count();
-
 
 // функції 5:12
 
