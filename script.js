@@ -1,7 +1,15 @@
-// функції 9:09
 
-function double(valueble) {
-  return 2 * double;
+
+// функції 10:32
+let empty = function (a, b) {
+  if (!a || !b) return;
+  return a / b;
+}
+console.log(empty(3));
+
+// функції 9:09
+function double(valiable) {
+  return 2 * valiable;
 }
 function sum(a, b) {
   let c = a + b; // локальні змінні зазвичай потрібні, щоб передавати деякі дані в наступну функцію
@@ -20,12 +28,12 @@ count();
 
 // функції 5:12
 
-function count(count1 = 1, count2 = 9, count3 = 15) {
+function count_f(count1 = 1, count2 = 9, count3 = 15) {
   let resultCount = count1 + count2 + count3;
   console.log("resultCount = ", resultCount);
 }
 
-count();
+count_f();
 
 let person = {
   name: "ComeBack",
