@@ -1,11 +1,15 @@
 
 
+//функція стрілка
+let arrayFunction = (b, c) => b + c;
+console.log(arrayFunction(5, 5));
+
 // функції 10:32
 let empty = function (a, b) {
   if (!a || !b) return;
   return a / b;
 }
-console.log(empty(3));
+console.log(empty(3, 4));
 
 // функції 9:09
 function double(valiable) {
