@@ -2,7 +2,8 @@
 
 //функція стрілка
 let arrayFunction = (b, c) => b + c;
-console.log(arrayFunction(5, 5));
+let aF = b => 2 * b;
+console.log(arrayFunction(5, 5), aF(3));
 
 // функції 10:32
 let empty = function (a, b) {
