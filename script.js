@@ -1,15 +1,17 @@
-
+//функція new
+let f = new Function("x", "y", "return x + y");
+console.log("New: ", f(3, 5));
 
 //функція стрілка
 let arrayFunction = (b, c) => b + c;
-let aF = b => 2 * b;
+let aF = (b) => 2 * b;
 console.log(arrayFunction(5, 5), aF(3));
 
 // функції 10:32
 let empty = function (a, b) {
   if (!a || !b) return;
   return a / b;
-}
+};
 console.log(empty(3, 4));
 
 // функції 9:09
